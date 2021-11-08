@@ -1,7 +1,7 @@
 #!/bin/sh
 
-figlet Tools | lolcat
-figlet Termux | lolcat
+figlet Tools
+figlet Termux
 
 green='\033[0;32m'
 greenlight='\033[32;1m'
@@ -24,7 +24,6 @@ echo $red "6.). Keluar Aja"
 echo $black "++++++++++++++++++++++++++++++++++++++"
 echo
 read -p "Pilih Cepat Ngab :" santai
-
 if [ $santai = "1" ]
 then
 echo "TUNGGU NGAB, LAGI LOADING"
@@ -34,7 +33,6 @@ echo "TUNGGU NGAB, LAGI LOADING"
 else
 echo "TUNGGU NGAB, LAGI LOADING"
 fi
-
 if [ $santai = "2" ]
 then
    git clone https://github.com/Ranginang67/DarkFly-T>
@@ -42,28 +40,24 @@ then
        chmod +x *python2 install.py
              DarkFly
 fi
-
 if [ $santai = "3" ]
 then
     git clone https://github.com/grafov/hulk
       cd hulk
         python2 hulk.py
 fi
-
 if [ $santai = "4" ]
 then
      git clone https://github.com/cyweb/hammer
        cd hammer
          python hammer.py
 fi
-
 if [ $santai = "5" ]
 then
      git clone https://github.com/Sxp-ID/Kang-Spam
         cd Kang-Spam
           bash install.sh
 fi
-
 if [ $santai = "6" ]
 then
 echo $green
