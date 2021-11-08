@@ -22,9 +22,9 @@ echo $red "4). Hammer DDOS"
 echo $red "5). Spam Brutal"
 echo $red "6.). Keluar Aja"
 echo $black "++++++++++++++++++++++++++++++++++++++"
-echo
 read -p "Pilih Cepat Ngab :" santai
-if [ $santai = "1" ]
+
+if [[ $santai = "1" ]]
 then
 echo "TUNGGU NGAB, LAGI LOADING"
    git clone https://github.com/MrVirusSpm-07/cchek
@@ -33,34 +33,38 @@ echo "TUNGGU NGAB, LAGI LOADING"
 else
 echo "TUNGGU NGAB, LAGI LOADING"
 fi
-if [ $santai = "2" ]
+
+if [[ $santai = "2" ]]
 then
    git clone https://github.com/Ranginang67/DarkFly-T>
      cd DarkFly-Tool
        chmod +x *python2 install.py
              DarkFly
 fi
-if [ $santai = "3" ]
+
+if [[ $santai = "3" ]]
 then
     git clone https://github.com/grafov/hulk
       cd hulk
         python2 hulk.py
 fi
-if [ $santai = "4" ]
+
+if [[ $santai = "4" ]]
 then
      git clone https://github.com/cyweb/hammer
        cd hammer
          python hammer.py
 fi
-if [ $santai = "5" ]
+
+if [[ $santai = "5" ]]
 then
      git clone https://github.com/Sxp-ID/Kang-Spam
         cd Kang-Spam
           bash install.sh
 fi
-if [ $santai = "6" ]
+
+if [[ $santai = "6" ]]
 then
-echo $green
-figlet Selamat | lolcat
-figlet Tinggal | lolcat
+figlet Selamat
+figlet Tinggal
 fi
