@@ -2,14 +2,12 @@
 
 figlet Tools
 figlet Termux
-
 green='\033[0;32m'
 greenlight='\033[32;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 black='\033[30;1m'
 yellow='\033[33;1m'
-
 echo $black "++++++++++++++++++++++++++++++++++++++"
 echo $red "Author : Mr.T1T4N"
 echo $red "Team : Mugiwara Black Hat | Legend Cyber"
