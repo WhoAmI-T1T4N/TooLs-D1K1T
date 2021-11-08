@@ -20,7 +20,7 @@ echo $red "4). Hammer DDOS"
 echo $red "5). Spam Brutal"
 echo $red "6.). Keluar Aja"
 echo $black "++++++++++++++++++++++++++++++++++++++"
-read -p "Pilih Cepat Ngab :" santai
+read -p "Pilih Cepat Ngab :"  santai
 if [[ $santai = "1" ]]
 then
 echo "TUNGGU NGAB, LAGI LOADING"
