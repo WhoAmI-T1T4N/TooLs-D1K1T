@@ -37,7 +37,7 @@ then
 fi
 if [ $santai = "2" ]
 then
-   git clone https://github.com/Ranginang67/DarkFly-T>
+   git clone https://github.com/Ranginang67/DarkFly-Tool
      cd DarkFly-Tool
        chmod +x *
           python2 install.py
