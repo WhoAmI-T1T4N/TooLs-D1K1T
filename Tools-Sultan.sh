@@ -17,7 +17,6 @@ echo $red   "1). Tools CCTV"
 echo $red   "2). Tools Dark Tools"
 echo $red   "3). Keluar Aja Sana"
 echo $black "+++++++++++++++++++++++++++++"
-echo
 read -p     "Pilih Cepat Ngab :" santai
 if [ $santai = "1" ]
 then
