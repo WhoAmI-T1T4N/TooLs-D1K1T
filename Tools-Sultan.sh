@@ -58,7 +58,7 @@ then
        cd MrSadapWhatsApp
          sh MrSadapWhatsApp.sh
 fi
-if[ $santai = "6" ]
+if [ $santai = "6" ]
 then
     git clone https://github.com/4NK3R-PRODUCT1ON/T4MPILAN-V5
        cd T4MPILAN-V5
