@@ -11,6 +11,7 @@ yellow='\033[33;1m'
 echo $black "++++++++++++++++++++++++++++"
 echo $red   "Author : Mr.T1T4N ft 7Brother"
 echo $red   "Team : Mugiwara | Legend"
+echo $red   "YouTube : T1T4N TZY"
 echo $black "+++++++++++++++++++++++++++++"
 echo $black "+++++++++++++++++++++++++++++"
 echo $red   "1). Hack CCTV"
