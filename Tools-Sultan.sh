@@ -9,13 +9,17 @@ white='\033[37;1m'
 black='\033[30;1m'
 yellow='\033[33;1m'
 echo $black "++++++++++++++++++++++++++++"
-echo $red   "Author : Mr.T1T4N"
-echo $red   "Team : Mugiwara Black Hat"
+echo $red   "Author : Mr.T1T4N ft 7Brother"
+echo $red   "Team : Mugiwara | Legend"
 echo $black "+++++++++++++++++++++++++++++"
 echo $black "+++++++++++++++++++++++++++++"
-echo $red   "1). Tools CCTV"
+echo $red   "1). Hack CCTV"
 echo $red   "2). Tools Dark Tools"
-echo $red   "3). Keluar Aja Sana"
+echo $red   "3). DDOS HULK"
+echo $red   "4). DDOS ATTACK"
+echo $red   "5). Sadap Pacar"
+echo $red   "6). Tampilan Termux"
+echo $red   "99). KELUAR SANA"
 echo $black "+++++++++++++++++++++++++++++"
 read -p     "Pilih Cepat Ngab :" santai
 if [ $santai = "1" ]
@@ -28,24 +32,41 @@ echo "Salah Goblok"
 fi
 if [ $santai = "2" ]
 then
-   git clone https://github.com/Ranginang67/DarkFly-T>
-     cd DarkFly-Tool
-       chmod +x *
-          python2 install.py
-             DarkFly
-fi
-if [ $santai = "2" ]
-then
    git clone https://github.com/Ranginang67/DarkFly-Tool
      cd DarkFly-Tool
        chmod +x *
           python2 install.py
              DarkFly
 fi
-
 if [ $santai = "3" ]
 then
-figlet Terima
-figlet Kasih
+echo "Ketik python2 hulk.py (nama website)"
+   git clone https://github.com/grafov/hulk
+     cd hulk
+       python2 hulk.py
+fi
+if [ $santai = "4" ]
+then
+   git clone https://github.com/Ha3MrX/DDos-Attack
+      cd DDos-Attack
+        chmod +x ddos-attack.py
+          python2 ddos-attack.py
+fi
+if [ $santai = "5" ]
+then
+    git clone https://github.com/Anonymous3-SIT/MrSadapWhatsApp
+       cd MrSadapWhatsApp
+         sh MrSadapWhatsApp.sh
+fi
+if[ $santai = "6" ]
+then
+    git clone https://github.com/4NK3R-PRODUCT1ON/T4MPILAN-V5
+       cd T4MPILAN-V5
+         python2 style5.py
+fi
+if [ $santai = "99" ]
+then
+figlet Selamat
+figlet Tinggal
 exit
 fi
