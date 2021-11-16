@@ -33,8 +33,6 @@ then
    git clone https://github.com/MrVirusSpm-07/cchek
      cd cchek
         sh cchek.sh
-else
-echo "Salah Goblok"
 fi
 if [ $santai = "2" ]
 then
@@ -101,4 +99,10 @@ then
 figlet Selamat
 figlet Tinggal
 exit
-fi
+else 
+     sleep 2
+     else
+     echo "SepertiNya Kau Anak Tolol"
+     sleep 2
+     sh Tools-Sultan.sh
+     fi
