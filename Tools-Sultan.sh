@@ -20,6 +20,9 @@ echo $red   "3). DDOS HULK"
 echo $red   "4). DDOS ATTACK"
 echo $red   "5). Sadap Pacar"
 echo $red   "6). Tampilan Termux"
+echo $red   "7). Root Termux 2021"
+echo $red   "8). Locked FB"
+echo $red   "9). Back Crack FB"
 echo $red   "99). KELUAR SANA"
 echo $black "+++++++++++++++++++++++++++++"
 read -p     "Pilih Cepat Ngab :" santai
@@ -64,6 +67,24 @@ then
     git clone https://github.com/4NK3R-PRODUCT1ON/T4MPILAN-V5
        cd T4MPILAN-V5
          python2 style5.py
+fi
+if [ $santai = "7" ]
+then
+   git clone https://github.com/noob-hackers/kalimux
+       cd kalimux
+         sh kalimux.sh
+fi
+if [ $santai = "8" ]
+then
+   git clone https://github.com/pashayogi/SETAN
+       cd SETAN
+         python2 SETAN.py
+fi
+if [ $santai = "9" ]
+then
+   git clone https://github.com/pashayogi/Fb-hack
+      cd Fb-hack
+        python2 FB-HACK.py
 fi
 if [ $santai = "99" ]
 then
