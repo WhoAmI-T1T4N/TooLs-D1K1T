@@ -99,7 +99,6 @@ then
 figlet Selamat
 figlet Tinggal
 exit
-else 
      sleep 2
      else
      echo "SepertiNya Kau Anak Tolol"
