@@ -99,9 +99,10 @@ then
 figlet Selamat
 figlet Tinggal
 exit
-     sleep 2
+fi
+     sleep 0.1
      else
      echo "SepertiNya Kau Anak Tolol"
-     sleep 2
+     sleep 3
      sh Tools-Sultan.sh
-     fi
+     sleep 0.1
